@@ -3,32 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./styles/css/style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/c926afb3ee.js" crossorigin="anonymous"></script>
     <title>Collapsed Orgon</title>
 </head>
 <body>
     <header>
-        <div class="container">
+        <!-- logo -->
+        <figure id="logo">
+            <img src="./assets/logo.png" alt="logo" class="logo">
+        </figure>
+        <!-- Hamburger menu -->
+            <button class="hamburger" id="hamburger" type="button">
+            <i class="fas fa-bars"></i></button>
             <nav>
-                <img src="assets/logo.png" alt="logo" class="logo">
-                <button class="hamburger" id="hamburger">
-                <i class="fas fa-bars"></i>
-                </button>
                 <ul class="nav-ul" id="nav-ul">
-                    <li><a href="#noticias">Noticias</a></li>
-                    <li><a href="#reviews">Reviews</a></li>
-                    <li><a href="#podcasts">Podcasts</a></li>
-                    <li><a href="#eventos">Eventos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-
-                    <li><a href="#facebook" ></a><img src="assets/facebook.png"></li></li>
-                    <li><a href="#twitter"></a><img src="assets/twitter.png"></li></li>
-                    <li><a href="#instagram"></a><img src="assets/instagram.png"></li></li>
-                    <li><a href="#headphones"></a><img src="assets/headphones.png"></li>
+                    <!-- Menu -->
+                    <li id="nav-link"><a href="#noticias">Noticias</a></li>
+                    <li id="nav-link"><a href="#reviews">Reviews</a></li>
+                    <li id="nav-link"><a href="#podcasts">Podcasts</a></li>
+                    <li id="nav-link"><a href="#eventos">Eventos</a></li>
+                    <li id="nav-link"><a href="#contacto">Contacto</a></li>
+                    <!-- Social -->
+                    <li id="nav-link"><a href="#facebook" ></a><img src="assets/facebook.png"></li></li>
+                    <li id="nav-link"><a href="#twitter"></a><img src="assets/twitter.png"></li></li>
+                    <li id="nav-link"><a href="#instagram"></a><img src="assets/instagram.png"></li></li>
+                    <li id="nav-link"><a href="#headphones"></a><img src="assets/headphones.png"></li>
                 </ul>
-            </nav>   
-        </div>
+            </nav> 
+            <!-- Search menu mobile --> 
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Type to search"> 
+                <a class="search-btn" href="#" <i class="fas fa-search"></i></a>
+            </div> 
     </header>
-    
 </body>
 </html>
